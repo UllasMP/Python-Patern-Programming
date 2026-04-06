@@ -101,7 +101,7 @@ n=5
 for i in range(1,5+1):
     for j in range(1,5+1):
         if i==1 or j==1 or i==n or j==n or j==3 or i==3:
-            print("*", end=" ")
+            print("*", end="")
         else:
             print(" ",end=" ")
     print()
@@ -131,3 +131,15 @@ for i in range(1,4+1):
         else:
             print(" ",end="")
     print()
+
+print("Pattern 11")
+print()
+n=5
+for i in range(1,4+1):
+    for j in range(1,7+1):
+        if i+3==j or i==4 or i==3 and j==2 or i==2 and j==3:
+            print("*",end='')
+        else:
+            print(" ",end="")
+    print()
+
